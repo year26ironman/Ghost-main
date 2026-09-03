@@ -3,7 +3,7 @@
 :root {
   /* Premium Dark Theme Palette - No color gradients */
   --bg-base: #050505;
-  --bg-surface: #0a0a0a;
+  --bg-surface: #0a0a0a; 
   --bg-surface-elevated: rgba(25, 25, 25, 0.6);
   --bg-surface-hover: rgba(35, 35, 35, 0.8);
   
