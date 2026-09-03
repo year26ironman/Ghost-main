@@ -1,6 +1,6 @@
 # Ghost: Verifiable Autonomy Layer for AI Shopping Agents 
 
-**Tagline:** _"Trust the proof, not the promise."_
+**Tagline:** _"Trust the proof, not the promise."_ 
 
 Ghost is a verifiable autonomy layer built on the Midnight privacy blockchain. It lets AI shopping/commerce agents discover, compare, negotiate and buy on behalf of users, while enforcing hard, cryptographic spending rules and generating zero-knowledge proofs that every purchase obeyed those rules—without exposing private data or the agent’s internal logic.
 
