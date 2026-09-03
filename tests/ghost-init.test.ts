@@ -1,5 +1,5 @@
 import { GhostSimulator } from "./ghost-simulator";
-import { setNetworkId } from "@midnight-ntwrk/midnight-js-network-id";
+import { setNetworkId } from "@midnight-ntwrk/midnight-js-network-id"; 
 import { describe, it, expect } from "vitest";
 
 setNetworkId("undeployed");
