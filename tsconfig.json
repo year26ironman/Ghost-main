@@ -1,0 +1,51 @@
+{
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    ".next/dev/types/**/*.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "lib": [
+      "ESNext"
+    ],
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "incremental": true
+  },
+  "exclude": [
+    "node_modules",
+    "src-vite-old",
+    "tests",
+    "bboard",
+    "ghost-contract",
+    "deploy-simulated.ts"
+  ]
+}
