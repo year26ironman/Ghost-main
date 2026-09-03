@@ -4,7 +4,7 @@ import CompactStandardLibrary;
 
 export ledger spending_limit: Uint<32>;
 export ledger total_spent: Uint<32>;
-
+ 
 // Feature 1: Age / Eligibility Gate (Agent Reputation Threshold)
 export ledger required_reputation: Uint<32>;
 
