@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Screenshot/Landing%20Page.png" alt="Ghost Landing Page" width="100%">
+  <img src="./Screenshot/Landing%20Page.png" alt="Ghost Landing Page" width="100%"> 
   <br>
   
   
