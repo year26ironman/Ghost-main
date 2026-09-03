@@ -3,7 +3,7 @@ import { GhostDashboard } from './components/GhostDashboard';
 import './styles/index.css';
 
 function App() {
-  return (
+  return ( 
     <GhostDashboard />
   );
 }
