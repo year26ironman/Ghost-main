@@ -2,7 +2,7 @@ import { GhostSimulator } from "./src/test/ghost-simulator.js";
 import { setNetworkId } from "@midnight-ntwrk/midnight-js-network-id";
 import { randomBytes } from "crypto";
 
-async function runSimulation() {
+async function runSimulation() { 
   console.log("Connecting to network (Simulated)...");
   setNetworkId("undeployed");
   
