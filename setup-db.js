@@ -7,7 +7,7 @@ async function setup() {
     console.log('Creating tables if they do not exist...');
 
     await sql`
-      CREATE TABLE IF NOT EXISTS audit_events (
+      CREATE TABLE IF NOT EXISTS audit_events ( 
         id TEXT PRIMARY KEY,
         type TEXT NOT NULL,
         agent_id TEXT,
