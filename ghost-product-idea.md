@@ -1,4 +1,4 @@
-# Ghost: Verifiable Autonomy Layer for AI Shopping Agents
+# Ghost: Verifiable Autonomy Layer for AI Shopping Agents 
 
 **Tagline:** _"Trust the proof, not the promise."_
 
