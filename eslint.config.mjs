@@ -5,7 +5,7 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 import globals from "globals";
 
 const config = tseslint.config(
-  {
+  { 
     ignores: ["eslint.config.mjs", "src/managed/"],
   },
   eslint.configs.recommended,
