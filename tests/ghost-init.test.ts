@@ -4,7 +4,7 @@ import { describe, it, expect } from "vitest";
 
 setNetworkId("undeployed");
 
-/**
+/** 
  * Test 1: Ghost Initialization
  * - Circuit Logic: Verifies the constructor circuit correctly initializes state.
  * - State Transitions: Verifies state transitions from uninitialized -> initialized with 0 spent.
