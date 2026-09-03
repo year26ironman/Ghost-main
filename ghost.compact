@@ -5,7 +5,7 @@ import CompactStandardLibrary;
 export ledger spending_limit: Uint<32>;
 export ledger total_spent: Uint<32>;
 
-constructor(limit: Uint<32>) {
+constructor(limit: Uint<32>) { 
   spending_limit = disclose(limit);
   total_spent = 0 as Uint<32>;
 }
